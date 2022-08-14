@@ -1,0 +1,227 @@
+body {
+  font-family: 'Roboto';
+  font-family: 'RaleWay';
+  color: #212121;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+:root {
+  --text-color: #2196f3;
+  --link-color: #212121;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-raleway: 'Raleway', sans-serif;
+  --button-color: #2196f3;
+  --portfolio-color: #757575;
+}
+/* Шапка сайта */
+.header-logo {
+  color: var(--link-color);
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo {
+  color: var(--text-color);
+}
+.header-navigation {
+}
+.navigation-list {
+}
+.navigation-item {
+}
+.webstudio-link {
+}
+.webstudio-contact-list {
+}
+.navigation-list,
+.webstudio-contact-list {
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.link {
+  color: var(--link-color);
+}
+
+.header-navigation ul a:hover,
+.webstudio-contact-list a:hover,
+.header-navigation ul a:focus,
+.webstudio-contact-list a:focus {
+  color: var(--text-color);
+}
+
+.main-content {
+}
+
+.about-section {
+  background-color: #2f303a;
+}
+
+.title,
+.button {
+  color: #ffffff;
+}
+.title {
+  font-family: var(--font-roboto);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+.button {
+  background-color: #188ce8;
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  width: 216px;
+  height: 50px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+}
+
+.benefit-title {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.benefits-title {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.benefits-text {
+  font-family: var(--font-roboto);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.gallery {
+}
+.gallery-title {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.gallery-list {
+}
+.gallery-item {
+}
+.img {
+}
+
+.comands {
+  background-color: #f5f4fa;
+}
+
+.comand-title {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.comands-list {
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.comands-item {
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.comands-text {
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  line-height: 1.19;
+}
+.comand {
+}
+
+.webstudio-footer {
+  background-color: #2f303a;
+}
+
+.footer-address a:hover,
+.footer-address a:focus {
+  color: var(--text-color);
+}
+
+.footer-logo {
+  color: #ffffff;
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.footer-contact {
+  color: rgba(157, 164, 189, 60%);
+  font-family: var(--font-roboto);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer-link {
+  color: #ffffff;
+  font-family: var(--font-roboto);
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* /////////////////// */
+
+/* Портфоліо */
+.button-navigation {
+  background-color: #f5f4fa;
+}
+.button-navigation:hover,
+.button-navigation:focus {
+  background-color: var(--button-color);
+}
+.all {
+  width: 73px;
+  height: 38px;
+}
+.web-site {
+  width: 125px;
+  height: 38px;
+}
+.addition {
+  width: 112px;
+  height: 38px;
+}
+.design {
+  width: 103px;
+  height: 38px;
+}
+.marketing {
+  width: 130px;
+  height: 38px;
+}
+.portfolio-title {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.portfolio-text {
+  color: var(--portfolio-color);
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  line-height: 1.875;
+}
