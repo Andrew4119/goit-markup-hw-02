@@ -19,7 +19,7 @@ body {
   --border-header-color: #ececec;
   --section-color: #ffffff;
   --border-color-portfolio: #eeeeee;
-  --color-section: #ffffff99;
+  --footer-contact-color: #ffffff99;
 }
 
 .list {
@@ -54,10 +54,8 @@ body {
 }
 .webstudio-link {
 }
-.webstudio-contact-list {
-}
-.navigation-list,
-.webstudio-contact-list {
+
+.webstudio-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -79,11 +77,11 @@ body {
 }
 
 .current {
-  accent-color: var(--button-color);
+  color: var(--button-color);
 }
 
 .portfolio-current {
-  accent-color: var(--button-color);
+  color: var(--button-color);
 }
 
 .main-content {
@@ -114,6 +112,7 @@ body {
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  font-style: inherit;
 }
 
 .button:hover,
@@ -139,12 +138,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
 }
 .benefits-text {
-  font-size: 14px;
+  color: var(--portfolio-color);
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 .gallery {
 }
@@ -152,7 +149,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 .gallery-list {
 }
@@ -171,17 +167,14 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.comands-list {
+.comands-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
-}
-.comands-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.1875;
+  letter-spacing: 0.03em;
 }
 .comands-text {
+  font-weight: 400;
   color: #757575;
   font-size: 16px;
   line-height: 1.19;
@@ -207,7 +200,7 @@ body {
 }
 
 .footer-contact {
-  color: rgba(157, 164, 189, 60%);
+  color: var(--footer-contact-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
